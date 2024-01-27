@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container .multicolortext {
+        background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 60px;
+      }
+
+.chat-pop
+{
+	margin-left: 90%;
+	margin-top: 20%;
+}
+
+.chat-pop::after
+{
+	border: 20px;
+}
